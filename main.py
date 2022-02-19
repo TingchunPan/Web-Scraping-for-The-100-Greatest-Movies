@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-with open('movie_file.txt', 'w') as f:
+with open('movies_file.txt', 'w') as f:
  URL = "https://web.archive.org/web/20200518073855/https://www.empireonline.com/movies/features/best-movies-2/"
  respond=requests.get(URL)
  web=respond.text
